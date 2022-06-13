@@ -159,10 +159,50 @@ main section h4 {
 
 /* Aplicamos estilo a espacio de lugares---------------------- */
 .container-places {
-    height: 5em;
+    height: 15em;
     background-color: #873600;
 }
 
+.places-titles {
+    border: 2px blue solid;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.places {
+    background-color: red;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.peyote {
+    background-color: black;
+    border: 2px white solid;
+    display: inline-block;
+    width: 3em;
+    height: 5em;
+}
+
+.peyotito {
+    background-color: yellow;
+    border: 2px green solid;
+    display: inline-block;
+    width: 3em;
+    height: 5em;
+}
+
+.nueva-tienda {
+    background-color: black;
+    border: 2px white solid;
+    display: inline-block;
+    width: 3em;
+    height: 5em;
+}
 
 /* Aplicamos estilo a footer ----------------------------------*/
 footer {
