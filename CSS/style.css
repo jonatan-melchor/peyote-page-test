@@ -159,49 +159,87 @@ main section h4 {
 
 /* Aplicamos estilo a espacio de lugares---------------------- */
 .container-places {
-    height: 15em;
-    background-color: #873600;
+    height: fit-content;
+    /* background-color: #cacfd2; */
+    /* background-color: #fae5d3; */
+    background-color: #f7e1cf;
+    padding-bottom: 1em;
 }
 
 .places-titles {
-    border: 2px blue solid;
+    /* border: 2px blue solid; */
     text-align: center;
     width: 60%;
     margin: 0 auto;
+    padding: 3em 0;
+
+    font-family: 'Montserrat', sans-serif;
 }
 
+.places-titles h3 {
+    font-size: 1.8em;
+}
+
+.place-text {
+    /* border: 1px green solid; */
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 0.9em;
+    padding-top: 1em;
+    text-align: justify;
+}
+
+
 .places {
-    background-color: red;
+    /* background-color: red; */
     width: 80%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+}
 
+.places section {
+    width: 20em;
+    height: 30em;
+    background-color: #efefef;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.places section img {
+    border: 1px red solid;
+    display: block;
+    margin: 4em auto;
 }
 
 .peyote {
-    background-color: black;
-    border: 2px white solid;
+    /* background-color: black; */
+    /* border: 2px white solid; */
     display: inline-block;
-    width: 3em;
-    height: 5em;
 }
 
 .peyotito {
-    background-color: yellow;
-    border: 2px green solid;
+    /* background-color: yellow; */
+    /* border: 2px green solid; */
     display: inline-block;
-    width: 3em;
-    height: 5em;
 }
 
-.nueva-tienda {
-    background-color: black;
-    border: 2px white solid;
+.colectika {
+    /* background-color: black; */
+    /* border: 2px white solid; */
     display: inline-block;
-    width: 3em;
-    height: 5em;
+}
+
+.place-names {
+    font-size: 1.2em;
+}
+
+.place-info {
+    padding: 1em 3.5em;
+    font-size: 0.9em;
 }
 
 /* Aplicamos estilo a footer ----------------------------------*/
@@ -244,6 +282,12 @@ footer .meet-us h3 {
 footer .meet-us p {
     font-size: small;
     color: #979e9e;
+}
+
+footer .meet-us .email {
+    font-size: small;
+    color: #979e9e;
+    text-decoration: underline;
 }
 
 footer .redes {
